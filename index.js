@@ -1,2 +1,0 @@
-alert("Volte aos estudos")
-

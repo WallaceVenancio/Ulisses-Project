@@ -5,13 +5,13 @@
     "description": "Extensão para fazer você focar nos estudos",
     "author": "Wallace Venancio",
     "action": {
-        "default_icon":"stop.png",
+        "default_icon":"image/stop.png",
     "default_title": "Ulisses teste",
-    "default_popup": "index.html"
+    "default_popup": "html/index.html"
     },
     "content_scripts": [{
         "matches": ["https://www.youtube.com/"],
-        "js": ["index.js"]
+        "js": ["src/index.js"]
     }]
 
 
