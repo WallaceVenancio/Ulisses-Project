@@ -8,5 +8,11 @@
         "default_icon":"stop.png",
     "default_title": "Ulisses teste",
     "default_popup": "index.html"
-    }
+    },
+    "content_scripts": [{
+        "matches": ["https://www.youtube.com/"],
+        "js": ["index.js"]
+    }]
+
+
 }
