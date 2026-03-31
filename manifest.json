@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "name": "Ulisses",
+    "description": "Extensão para fazer você focar nos estudos",
+    "author": "Wallace Venancio",
+    "action": {
+        "default_icon":"stop.png",
+    "default_title": "Ulisses teste",
+    "default_popup": "index.html"
+    }
+}
