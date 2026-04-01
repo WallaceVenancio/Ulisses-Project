@@ -9,10 +9,12 @@
     "default_title": "Ulisses teste",
     "default_popup": "html/index.html"
     },
-    "content_scripts": [{
-        "matches": ["https://www.youtube.com/"],
-        "js": ["src/index.js"]
-    }]
-
+    "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "css": ["css/style.css"],
+      "js": ["src/index.js"]
+    }
+]
 
 }
